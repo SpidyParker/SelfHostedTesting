@@ -24,7 +24,7 @@ jobs:
       with:
         #build: npm run build
         start: npm run
-        browser: chrome
+        browser: electron
         wait-on-timeout: 300
         # record: true
     - name: Upload screenshot for failed Test Scripts
