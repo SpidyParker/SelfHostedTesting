@@ -1,11 +1,7 @@
 name: Cypress Regression Suite Execution
 on:
   workflow_dispatch:
-    inputs:
-      specfiles:
-        description: Define spec path
-        required: true
-        default: cypress/e2e/MSIII/**
+
 # on:
 #   schedule:
 #     - cron: '*/60 * * * *'
